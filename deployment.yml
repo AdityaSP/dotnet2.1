@@ -22,7 +22,7 @@ metadata:
 spec:
   ports:
   - port: 8888
-    nodePort: 31010
+    nodePort: 31111
     targetPort: dotnet21port
     protocol: TCP
   selector:
