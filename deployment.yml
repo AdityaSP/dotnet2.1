@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: dotnet21
-        image: adityaregistry.azurecr.io/dotnet2.1-app:34
+        image: adityaregistry.azurecr.io/dotnet2.1-app:#{Build.BuildId}#
         ports:
         - name: dotnet21port 
           containerPort: 5000
