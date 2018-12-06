@@ -1,3 +1,3 @@
 FROM microsoft/dotnet:2.1-aspnetcore-runtime
-COPY . /code
+COPY out/* /code
 CMD ["dotnet", "/code/myappaks.dll"]
